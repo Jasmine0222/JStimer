@@ -1,0 +1,103 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 400 15px/1.8;
+    font-family: 'Alfa Slab One', cursive;
+    color: #696969;
+}
+body {
+    display: block;
+    font: 400 15px/1.8;
+    font-family: 'Alfa Slab One', cursive;
+    color: #696969;
+}
+.background-image{ 
+    /* Full height */
+    height: 100%;
+    background-image: url(TWD.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  } 
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+h1 {
+    font-size: 45px;
+    font-weight: 100px;
+    margin-top: 0px;
+    padding-right: 142px;
+    margin-bottom: 0px;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 9px;
+}
+.the {
+    font-size: 25px;
+    color: black;
+    margin-left: 68px;
+}
+.walking{
+    font-size: 47px;
+    margin-bottom: 32px;
+    margin-left: 58px;
+    color: black;
+}
+.dead {
+    font-size:  85px;
+    margin-bottom: 0px;
+    margin-left: 66px;
+    margin-top: 0px;
+    color: black;
+}
+.clock-area {
+    background-color: grey;
+    opacity: 0.65;
+}
+.text{
+    margin-top: 189px;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Crete Round', serif;
+    word-spacing: 5px;
+    color: #400200;
+}
+#count{
+    word-spacing: 5px;
+    font-size: 80px;
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+
+@media only screen (min-width: 470px){
+    .dead {
+        font-size: 85px;
+        margin-bottom: -97px;
+        margin-left: 34px;
+        margin-top: 46px;
+        color: black;
+    }
+    .walking {
+        font-size: 47px;
+        margin-bottom: -14px;
+        margin-left: 41px;
+        color: black;
+    }
+    .the {
+        font-size: 25px;
+        color: black;
+        margin-left: 36px;
+    }
+     
+    }
